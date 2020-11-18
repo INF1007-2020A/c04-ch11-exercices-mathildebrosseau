@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="82a7c954-1528-49fd-8fe6-51b45f90c955" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="657a8ca1-3992-4a65-934c-725c6e971528" />
+  <component name="ProjectId" id="1kRKX38156igpPbea7HD7Sl208W" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/game.py" />
+  </component>
+  <component name="RunManager" selected="Python.exercice">
+    <configuration name="exercice" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="c04-ch11-exercices-mathildebrosseau" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Mathi\anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exercice.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="game" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="c04-ch11-exercices-mathildebrosseau" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Mathi\anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/game.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_exercice" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="c04-ch11-exercices-mathildebrosseau" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Mathi\anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_exercice.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.test_exercice" />
+      <item itemvalue="Python.game" />
+      <item itemvalue="Python.exercice" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="82a7c954-1528-49fd-8fe6-51b45f90c955" name="Default Changelist" comment="" />
+      <created>1605658000797</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605658000797</updated>
+      <workItem from="1605658002889" duration="5473000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="219" y="1114" width="1097" height="798" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605660512521">
+      <screen x="0" y="1080" width="1536" height="832" />
+    </state>
+    <state x="-1701" y="221" width="1097" height="768" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.163.1536.832/0.0.1920.1040@-1920.163.1536.832" timestamp="1605658102156" />
+    <state x="219" y="1114" width="1097" height="798" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.1080.1536.832/0.0.1920.1040@0.1080.1536.832" timestamp="1605660512521" />
+    <state x="495" y="1203" key="FileChooserDialogImpl" timestamp="1605660511725">
+      <screen x="0" y="1080" width="1536" height="832" />
+    </state>
+    <state x="-1425" y="286" key="FileChooserDialogImpl/-1920.163.1536.832/0.0.1920.1040@-1920.163.1536.832" timestamp="1605658100952" />
+    <state x="495" y="1203" key="FileChooserDialogImpl/0.1080.1536.832/0.0.1920.1040@0.1080.1536.832" timestamp="1605660511725" />
+    <state width="796" height="243" key="GridCell.Tab.0.bottom" timestamp="1605663491263">
+      <screen x="0" y="1080" width="1536" height="832" />
+    </state>
+    <state width="1481" height="195" key="GridCell.Tab.0.bottom/-1920.163.1536.832/0.0.1920.1040@-1920.163.1536.832" timestamp="1605658476648" />
+    <state width="796" height="243" key="GridCell.Tab.0.bottom/0.1080.1536.832/0.0.1920.1040@0.1080.1536.832" timestamp="1605663491263" />
+    <state width="796" height="243" key="GridCell.Tab.0.center" timestamp="1605663491256">
+      <screen x="0" y="1080" width="1536" height="832" />
+    </state>
+    <state width="1481" height="195" key="GridCell.Tab.0.center/-1920.163.1536.832/0.0.1920.1040@-1920.163.1536.832" timestamp="1605658476648" />
+    <state width="796" height="243" key="GridCell.Tab.0.center/0.1080.1536.832/0.0.1920.1040@0.1080.1536.832" timestamp="1605663491256" />
+    <state width="796" height="243" key="GridCell.Tab.0.left" timestamp="1605663491256">
+      <screen x="0" y="1080" width="1536" height="832" />
+    </state>
+    <state width="1481" height="195" key="GridCell.Tab.0.left/-1920.163.1536.832/0.0.1920.1040@-1920.163.1536.832" timestamp="1605658476647" />
+    <state width="796" height="243" key="GridCell.Tab.0.left/0.1080.1536.832/0.0.1920.1040@0.1080.1536.832" timestamp="1605663491256" />
+    <state width="796" height="243" key="GridCell.Tab.0.right" timestamp="1605663491263">
+      <screen x="0" y="1080" width="1536" height="832" />
+    </state>
+    <state width="1481" height="195" key="GridCell.Tab.0.right/-1920.163.1536.832/0.0.1920.1040@-1920.163.1536.832" timestamp="1605658476648" />
+    <state width="796" height="243" key="GridCell.Tab.0.right/0.1080.1536.832/0.0.1920.1040@0.1080.1536.832" timestamp="1605663491263" />
+    <state width="796" height="243" key="GridCell.Tab.1.bottom" timestamp="1605663491264">
+      <screen x="0" y="1080" width="1536" height="832" />
+    </state>
+    <state width="796" height="243" key="GridCell.Tab.1.bottom/0.1080.1536.832/0.0.1920.1040@0.1080.1536.832" timestamp="1605663491264" />
+    <state width="796" height="243" key="GridCell.Tab.1.center" timestamp="1605663491263">
+      <screen x="0" y="1080" width="1536" height="832" />
+    </state>
+    <state width="796" height="243" key="GridCell.Tab.1.center/0.1080.1536.832/0.0.1920.1040@0.1080.1536.832" timestamp="1605663491263" />
+    <state width="796" height="243" key="GridCell.Tab.1.left" timestamp="1605663491263">
+      <screen x="0" y="1080" width="1536" height="832" />
+    </state>
+    <state width="796" height="243" key="GridCell.Tab.1.left/0.1080.1536.832/0.0.1920.1040@0.1080.1536.832" timestamp="1605663491263" />
+    <state width="796" height="243" key="GridCell.Tab.1.right" timestamp="1605663491263">
+      <screen x="0" y="1080" width="1536" height="832" />
+    </state>
+    <state width="796" height="243" key="GridCell.Tab.1.right/0.1080.1536.832/0.0.1920.1040@0.1080.1536.832" timestamp="1605663491263" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="attacker.hp" language="Python" />
+        <watch expression="defender.hp" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/c04_ch11_exercices_mathildebrosseau$game.coverage" NAME="game Coverage Results" MODIFIED="1605661103438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/c04_ch11_exercices_mathildebrosseau$test_exercice.coverage" NAME="test_exercice Coverage Results" MODIFIED="1605661907856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/c04_ch11_exercices_mathildebrosseau$exercice.coverage" NAME="exercice Coverage Results" MODIFIED="1605663334238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
