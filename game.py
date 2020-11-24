@@ -18,6 +18,8 @@ class Weapon:
 	:param min_level: Le niveau minimal pour l'utiliser
 	"""
 
+	UNARMED_POWER = 20
+
 	def __init__(self, name: str, power: int, min_level: int):
 		self.__name = name
 		self.power = power
@@ -28,9 +30,8 @@ class Weapon:
 		return self.__name
 
 	@classmethod
-	def make_unarmed(self, name):
-		UNARMED_POWER = 20
-		return Weapon("Unarmed", UNARMED_POWER, 1)
+	def make_unarmed(cls):
+		return cls("Unarmed", cls.UNARMED_POWER, 1)
 
 
 class Character:
@@ -45,48 +46,70 @@ class Character:
 	"""
 
 	def __init__(self, name, max_hp, attack, defense, level):
-		self.name = name
+		self.__name = name
 		self.max_hp = max_hp
 		self.attack = attack
 		self.defense = defense
 		self.level = level
+		self.weapon = None
+		self.hp = max_hp
 
-	def weapon(self, weapon):
-		self.weapon = weapon
+	@property
+	def name(self):
+		return self.__name
 
-	def hp(self, hp):
-		self.hp = hp
+	@property
+	def weapon(self):
+		return self.__weapon
 
-	def compute_damage(self, defender):
-		random_percentage = random.randint(85, 101) / 100  # random number between 0.85 and 1.0
-		random_16 = random.randint(1, 17)  # random number between 1 and 16
-		crit = 1 if random_16 < 16 else 2
-		modifier = crit * random_percentage
-		dmg = modifier * ((((2 * self.level / 5 + 2) * self.weapon.power * self.attack / defender.defense)
-						   / 50) + 2)
-		return round(dmg)
+	@weapon.setter
+	def weapon(self, value):
+		if value is None:
+			value = Weapon.make_unarmed()
+		if value.min_level > self.level:
+			raise ValueError(Weapon)
+		self.__weapon = value
+
+	@property
+	def hp(self):
+		return self.__hp
+
+	@hp.setter
+	def hp(self, value):
+		self.__hp = utils.clamp(value, 0, self.max_hp)
+
+	def compute_damage(self, oponent):
+		critical = random.random() <= 1/16
+		modifier = (2 if critical else 1) * random.uniform(0.85, 1.0)
+		level_factor = 2 * self.level / 5 + 2
+		damage = modifier * (((level_factor * self.weapon.power * (self.attack / oponent.defense)) / 50) + 2)
+		return int(round(damage)), critical
 
 
 def deal_damage(attacker: Character, defender: Character):
 	# TODO: Calculer dégâts
-	dmg = defender.compute_damage(defender)
-	defender.hp = defender.max_hp - dmg
-	print(f"{attacker.name} used {attacker.weapon.name}.\n   {defender.name} took {dmg} dmg.")
+	damage, critical = attacker.compute_damage(defender)
+	defender.hp -= damage
+	print(f"{attacker.name} used {attacker.weapon.name}.")
+
+	if critical:
+		print("   Critical hit!")
+	print(f"   {defender.name} took {damage} dmg")
 
 
 def run_battle(c1: Character, c2: Character):
 	# TODO: Initialiser attaquant/défendeur, tour, etc.
 	attacker = c1
 	defender = c2
-	print(f"{c1.name} starts a battle with {c2.name} !")
-	rounds_number = 0
-	print(attacker.hp)
-	attacker.hp = attacker.max_hp
-	defender.hp = defender.max_hp
+	round_number = 1
+	print(f"{attacker.name} starts a battle with {defender.name} !")
 
-	while attacker.hp > 0 and defender.hp > 0:
-		rounds_number += 1
+	while True:
 		deal_damage(attacker, defender)
+		if defender.hp == 0:
+			print(f"{defender.name} s'est fait assassiner.")
+			break
+		round_number += 1
 		attacker, defender = defender, attacker
 
-	return rounds_number
+	return round_number
